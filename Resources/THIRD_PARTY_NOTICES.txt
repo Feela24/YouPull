@@ -1,11 +1,11 @@
-OpenPull - third-party components
+YouPull - third-party components
 =================================
 
-OpenPull invokes the following programs as separate helper executables.
+YouPull invokes the following programs as separate helper executables.
 
 1. yt-dlp
    Project: https://github.com/yt-dlp/yt-dlp
-   OpenPull bundles the official `yt-dlp_macos` standalone release executable.
+   YouPull bundles the official `yt-dlp_macos` standalone release executable.
    The yt-dlp source repository is primarily Unlicense, but the official
    PyInstaller-based macOS release contains third-party components and the
    combined release executable is distributed under GPLv3+ terms as documented
@@ -15,11 +15,11 @@ OpenPull invokes the following programs as separate helper executables.
 2. FFmpeg / FFprobe binaries distributed by ffmpeg-static
    Project: https://github.com/eugeneware/ffmpeg-static
    FFmpeg project: https://ffmpeg.org/
-   Release used by OpenPull 1.3: b6.1.1
+   Release used by YouPull 1.3: b6.1.1
    Architecture-specific license and build information are included in
    Resources/licenses/ffmpeg-static/ after fetching the standalone tools.
 
-OpenPull launches these helpers as separate processes; it does not link against
-FFmpeg or yt-dlp libraries. If you redistribute a built OpenPull.app, keep these
+YouPull launches these helpers as separate processes; it does not link against
+FFmpeg or yt-dlp libraries. If you redistribute a built YouPull.app, keep these
 notices and the bundled license files with the application and comply with the
 corresponding third-party licenses.
