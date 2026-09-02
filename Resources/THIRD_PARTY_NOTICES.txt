@@ -15,7 +15,7 @@ YouPull invokes the following programs as separate helper executables.
 2. FFmpeg / FFprobe binaries distributed by ffmpeg-static
    Project: https://github.com/eugeneware/ffmpeg-static
    FFmpeg project: https://ffmpeg.org/
-   Release used by YouPull 1.3: b6.1.1
+   ffmpeg-static release used by the current build: b6.1.1
    Architecture-specific license and build information are included in
    Resources/licenses/ffmpeg-static/ after fetching the standalone tools.
 
